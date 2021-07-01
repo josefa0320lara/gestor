@@ -10,6 +10,12 @@
   </head>
 
   <body>
+  <div class="container">
+      <ul class="nav nav-tabs noborde">
+        <li > <%= link_to "home", root_path %> </li>
+        <li > <%= link_to "Nuevo Projecto", new_project_path %> </li>
+      </ul>
+  </div>
     <%= yield %>
   </body>
 </html>
